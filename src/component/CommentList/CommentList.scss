@@ -1,0 +1,25 @@
+@import "../../styles/shared.scss";
+
+.date {
+  font-style: italic;
+  font-weight: 200;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.name {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+}
+.message {
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.list_item {
+  margin: 15px 15px 20px 15px;
+  background-color: rgba(64, 82, 181, 0.5);
+  padding: 8px;
+  padding-left: 8px;
+  border-radius: 8px;
+}

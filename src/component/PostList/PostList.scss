@@ -1,0 +1,41 @@
+@import "../../styles/shared.scss";
+
+.PostList {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > li {
+    width: 450px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+}
+
+.btn_edit {
+  display: contents;
+  margin: 10px;
+}
+.btn_edit svg {
+  margin: 5px;
+
+  &:hover,
+  &:focus {
+    background-color: $indigo-accent;
+  }
+}
+.btn_add {
+  margin-left: 50%;
+  background: none;
+  font-weight: 600;
+  margin-bottom: 5px;
+  border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    background-color: $indigo-accent;
+  }
+}
